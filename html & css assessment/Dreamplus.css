@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.main {
+  position: absolute;
+  background-image: url("dream-pulse-header.jpg");
+  background-attachment: fixed;
+  height: 730px;
+  width: 100%;
+}
+
+.intro {
+  position: relative;
+  border: 1px solid white;
+  height: 390px;
+  width: 480px;
+  top: 230px;
+  left: 1020px;
+  background-color: rgba(255, 255, 255, 0.224);
+
+}
+
+.introhead {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(39, 119, 176);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.introcenter {
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  width: 340px;
+  color: rgba(0, 0, 0, 0.419);
+  font-weight: 500;
+}
+
+.introlast {
+  position: absolute;
+  top: 250px;
+  left: 70px;
+  width: 340px;
+  color: rgba(0, 0, 0, 0.419);
+  font-weight: 500;
+}
+
+.secondmain {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 740px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+}
+
+.aboutcontainer {
+  position: relative;
+  right: 10px;
+
+  width: 500px;
+  left: 480px;
+}
+
+.profilecontainer {
+  position: relative;
+  width: 500px;
+  left: 500px;
+  
+}
+
+.icon {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  color: #369;
+}
+
+.head1 {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  color: #369;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head2 {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+.centercontent {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  width: 350px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+}
+
+.lastcontent {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  width: 350px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+}
+
+.thirdmain {
+  position: relative;
+  top: 650px;
+  display: flex;
+  height: 650px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  overflow-y: hidden;
+}
+
+.imagebox1 {
+  position: absolute;
+  top: 50px;
+  left: 550px;
+  border: 1px solid black;
+  height: 500px;
+  width: 800px;
+}
+
+.imagebox2 {
+  position: absolute;
+  top: 65px;
+  left: 565px;
+  border: 1px solid black;
+  height: 500px;
+  width: 800px;
+}
+
+.imageboxhead {
+  position: absolute;
+  top: 100px;
+  left: 630px;
+  color: #369;
+}
+
+.imagecontainer {
+  position: absolute;
+  top: 160px;
+  left: 665px;
+  height: auto;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+img {
+  margin-right: 10px;
+}
+.ourclient {
+  position: relative;
+  top: 650px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 750px;
+  width: 100%;
+}
+
+.ourclienthead {
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  height: auto;
+  width: auto;
+  font-size: 1.6rem;
+  color: #069;
+  font-weight: 500;
+  background-color: white;
+}
+
+.ourclientcontent {
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  height: auto;
+  width: 680px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+}
+.companynamecontainer
+{
+    position: relative;
+    top: 350px;
+    left: 550px;
+    height: 350px;
+    width: 900px;
+    background-color: rgb(4, 20, 83);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.border
+{
+    margin-right: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+}
+.coimage
+{
+  padding: 13px 5px 10px 10px;
+  height: auto;
+  width: auto;
+  
+}
+.talkuscontainer
+{
+  position: relative;
+  background-color: white;
+  height: 700px;
+  width: 100%;
+  top: 650px;
+  overflow-x: hidden;
+}
+.talkboxborder1
+{
+  position: absolute;
+  border: 1px solid black;
+  height: 400px;
+  width: 450px;
+  left: 550px;
+  top: 100px;
+}
+.talkboxborder2
+{
+  position: absolute;
+  border: 1px solid black;
+  height: 400px;
+  width: 450px;
+  left: 565px;
+  top: 115px;
+}
+.talkhead
+{
+  color: #069;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.talksecond
+{
+  width: 700px;
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 1.0rem;
+  line-height: 110%;
+}
+.talkthird
+{
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 1.0rem;
+}
+.talkfourth
+{
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 1.0rem;
+}
+.talkfive
+{
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 1.0rem;
+}
+.form
+{
+  position: absolute;
+  top: 50px;
+  left: 1100px;
+  height: 500px;
+  width: 350px;
+}
+.inset
+{
+  padding: 10px 150px 5px 5px;
+}
+input::placeholder,textarea::placeholder
+{
+  font-size: 15px;
+  padding-left: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input,textarea,.sub
+{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.sub
+{
+  margin-top: 20px;
+  margin-left: 260px;
+  padding: 10px 15px 10px 15px;
+}
+.sub:hover
+{
+  background-color: rgb(140, 133, 133);
+}
+.navbar
+{ 
+    position: fixed;
+    z-index: 1;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.323);
+}
+
+.navbox
+{
+  height: 200px;
+  width: 300px;
+  top:50px;
+  left: 50px;
+  position: relative;
+}
+.navbox1
+{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  border: 1px solid white;
+  height: 170px;
+  width: 250px;
+}
+.navbox2
+{
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  border: 1px solid white;
+  height: 170px;
+  width: 250px;
+  text-align: center;
+}
+.dreaminbox
+{
+  margin-top: 30px;
+  color: white;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.linkcontainer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 70px;
+  height: auto;
+  width: 300px;
+
+}
+/* intro link blinker */
+.navintro
+{
+  position: absolute;
+  top: 50px;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navintro:hover
+{
+  animation: blinkerintro 0.5s linear infinite;
+}
+@keyframes blinkerintro {
+  50% {
+      opacity: 0;
+  }
+}
+/* about link blinker */
+.navabout
+{
+  position: absolute;
+  top: 100px;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navabout:hover
+{
+  animation: blinkerabout 0.5s linear infinite;
+}
+@keyframes blinkerabout {
+  50% {
+      opacity: 0;
+  }
+}
+ /* work link blinker */
+ .navwork
+{
+  position: absolute;
+  top: 150px;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navwork:hover
+{
+  animation: blinkerabout 0.5s linear infinite;
+}
+@keyframes blinkerwork {
+  50% {
+      opacity: 0;
+  }
+}
+/* client link blinker */
+.navclients
+{
+  position: absolute;
+  top: 200px;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navclients:hover
+{
+  animation: blinkerclients 0.5s linear infinite;
+}
+@keyframes blinkerclients {
+  50% {
+      opacity: 0;
+  }
+}
+/* LETS TALK BLINKER  */
+.navtalk
+{
+  position: absolute;
+  top: 250px;
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navtalk:hover
+{
+  animation: blinkertalk 0.5s linear infinite;
+}
+@keyframes blinkertalk {
+  50% {
+      opacity: 0;
+  }
+}
+.fontcontainer
+{
+  position: absolute;
+  top: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  left: 50px;
+  height: 50px;
+  width: 300px;
+}
+.logo
+{
+  padding-top: 5px;
+  margin-right: 15px;
+  height:40px;
+  width: 40px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.logo:hover
+{
+  background-color: rgb(39, 119, 176);
+} 
+i{
+   font-size: 200%;
+}
+.copyrightcontainer
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  top: 420px;
+  left: 60px;
+  height: 70px;
+  width: 300px;
+  color: white;
+  font-weight: 100;
+}
+.copyright
+{
+  width: fit-content;
+  margin-bottom: 5px;
+}
+.designlink
+{
+  color: white;
+  text-decoration: none;
+}
